@@ -1,0 +1,32 @@
+.main-container {
+  /* position: relative; */
+  cursor: pointer;
+  width: 100%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 1rem;
+  height: 4rem;
+}
+
+.main-container p img {
+  width: 5rem;
+  margin-right: 1rem;
+}
+
+.main-container p .text1 {
+  font-weight: 900;
+  border-bottom: 4px solid #0071dc;
+}
+
+.main-container p .text2 {
+  font-weight: 300;
+  margin-left: 1rem;
+  font-size: 0.9rem;
+}
+
+.main-container p .text2 a {
+  color: black;
+}

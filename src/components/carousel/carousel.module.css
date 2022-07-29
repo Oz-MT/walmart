@@ -1,0 +1,11 @@
+.product-card {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem;
+}
+
+.product-card-cont {
+  padding-bottom: 1.5rem;
+  border-bottom: 1px solid rgba(195, 189, 189, 0.5);
+  position: relative;
+}

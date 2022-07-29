@@ -1,0 +1,33 @@
+.main-container {
+  /* border: 1px solid red; */
+  width: 93.5%;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.8rem;
+}
+
+.main-container img {
+  width: 100%;
+  border-top-left-radius: 0.8rem;
+  border-top-right-radius: 0.8rem;
+}
+
+.card-text {
+  padding: 1.5rem 1rem 1.5rem 1rem;
+}
+
+.card-text h5 {
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+
+.card-text p {
+  font-size: 0.9rem;
+}
+
+.card-text button {
+  font-size: 0.8rem;
+  padding: 0.4rem 1rem 0.2rem 1rem;
+  background-color: white;
+  border-radius: 1rem;
+  font-weight: 800;
+}

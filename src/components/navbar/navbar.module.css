@@ -1,0 +1,252 @@
+.main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  z-index: 500;
+}
+.main-container .top-navbar {
+  background-color: #0071dc;
+  display: flex;
+  align-items: center;
+  padding: 1.3rem 0;
+  border-bottom: solid 1px white;
+  width: 100%;
+}
+
+.top-navbar-left {
+  display: flex;
+  justify-content: space-evenly;
+  width: 29rem;
+  height: 3rem;
+}
+
+.top-navbar button {
+  display: flex;
+  align-items: center;
+  background-color: #0071dc;
+  color: #fff;
+  border: none;
+  padding: 0 1rem;
+  border-radius: 1.8rem;
+  font-size: 16px;
+}
+
+.top-navbar button:hover {
+  background-color: #004f9a;
+}
+
+.top-navbar-medium {
+  display: flex;
+  align-items: center;
+  width: 70%;
+  padding-top: 0.3rem;
+}
+
+.top-navbar-medium-select {
+  border-top-left-radius: 1.5rem;
+  border-bottom-left-radius: 1.5rem;
+  height: 2.4rem;
+  min-width: 6rem;
+  font-size: 14px;
+  padding: 0.7rem;
+  border: none;
+  background-color: #e6f1fc;
+  color: #0071dc;
+}
+
+.top-navbar-medium-search {
+  width: 85%;
+  height: 2.4rem;
+  padding-top: 0.3rem;
+  padding-left: 0.4rem;
+  border: none;
+  font-size: 1rem;
+  border-bottom-right-radius: 1.5rem;
+  border-top-right-radius: 1.5rem;
+}
+
+.top-navbar-right {
+  display: flex;
+  min-width: 21rem;
+  justify-content: space-evenly;
+  height: 3rem;
+}
+
+.bottom-navbar {
+  background-color: #0071dc;
+  color: #fff;
+  font-size: 14px;
+  /* font-weight: 600; */
+  padding: 0.5rem 0;
+  display: flex;
+  width: 100%;
+  /* justify-content: space-between; */
+}
+
+.bottom-right {
+  display: flex;
+  /* justify-content: space-evenly; */
+  justify-content: flex-end;
+  align-items: center;
+  padding-top: 0.2rem;
+  width: 80%;
+  font-weight: 600;
+}
+
+.bottom-right a {
+  text-decoration: none;
+  color: #fff;
+  padding-right: 1.7rem;
+}
+
+.bottom-left {
+  padding-left: 1.3rem;
+  min-width: 39rem;
+}
+
+.bottom-left span {
+  font-weight: 700;
+}
+
+.bottom-left img {
+  width: 1.6rem;
+  margin-right: 0.6rem;
+}
+
+.bottom-right a:hover {
+  text-decoration: underline;
+}
+
+.top-navbar-right button span {
+  padding-top: 0.4rem;
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.top-navbar-left button span {
+  padding-top: 0.4rem;
+  padding-left: 0.2rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+}
+
+.down-arrow {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  padding: 0 0.8rem;
+}
+
+.location-icon {
+  padding: 0 0.6rem;
+}
+
+.home-icon {
+  padding: 0 0.6rem;
+  font-size: 1rem;
+}
+
+.top-shopping {
+  font-size: 1.6rem;
+}
+
+@media (max-width: 1300px) {
+  #covid {
+    display: none;
+  }
+}
+@media (max-width: 1150px) {
+  #walmart {
+    display: none;
+  }
+}
+
+@media (max-width: 1070px) {
+  .bottom-right {
+    display: none;
+  }
+}
+
+.down-list {
+  display: flex;
+  /* flex-direction: column; */
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.list {
+  position: absolute;
+  background-color: white;
+  color: white;
+  top: 3rem;
+  max-height: 20rem;
+  width: 15rem;
+  display: flex;
+  flex-direction: column;
+  padding: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.4rem;
+  overflow: auto;
+}
+
+.list a {
+  text-decoration: none;
+  color: black;
+  text-align: start;
+  font-size: 0.9rem;
+  /* font-weight: 200; */
+  margin-bottom: 0.3rem;
+}
+
+.list {
+  visibility: hidden;
+}
+
+.down-list:hover .list {
+  /* font-size: 3rem; */
+  visibility: visible;
+}
+
+.list a:hover {
+  background-color: #bcdff3;
+}
+
+.hamburger {
+  display: none;
+  cursor: pointer;
+  color: black;
+  padding-left: 2rem;
+  color: #fff;
+  font-size: 1.6rem;
+}
+
+@media (max-width: 1070px) {
+  .hamburger {
+    display: block;
+  }
+  button.down-list {
+    display: none;
+  }
+  input.top-navbar-medium-search {
+    width: 200%;
+  }
+
+  .top-navbar {
+    display: flex;
+    justify-content: space-evenly;
+  }
+
+  .top-navbar .top-navbar-right {
+    min-width: 3rem;
+  }
+
+  .top-navbar .top-navbar-left {
+    width: 9rem;
+    margin-right: 1rem;
+    align-items: center;
+  }
+}

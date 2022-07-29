@@ -1,0 +1,31 @@
+.container {
+  width: 100%;
+  position: relative;
+}
+
+.container img {
+  width: 11rem;
+}
+
+.container button {
+  display: block;
+  position: absolute;
+  top: 10rem;
+  padding: 0.4rem 1rem 0.2rem 1rem;
+  border-radius: 1.5rem;
+  border: none;
+  background-color: #0071dc;
+  color: white;
+  font-weight: 700;
+}
+
+.container h4 {
+  margin-top: 2rem;
+  font-size: 1.1rem;
+  font-weight: 700;
+}
+
+.container p {
+  width: 12rem;
+  font-size: 0.9rem;
+}

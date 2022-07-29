@@ -1,0 +1,14 @@
+@font-face {
+  font-family: bogle;
+  src: url(../src/font/BOGLEREGULAR.OTF);
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: bogle, Helvetica, sans-serif;
+}

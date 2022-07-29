@@ -1,0 +1,33 @@
+.main-container {
+  position: relative;
+  cursor: pointer;
+}
+
+.main-container img {
+  width: 100%;
+  margin-top: 1.5rem;
+}
+
+.main-container p img {
+  width: 30px;
+  position: absolute;
+  top: 0.7rem;
+  left: 17rem;
+}
+
+.main-container p span {
+  position: absolute;
+  top: 2.4rem;
+  left: 20rem;
+  color: white;
+  font-weight: 800;
+}
+
+.main-container p a {
+  position: absolute;
+  top: 2.5rem;
+  left: 52rem;
+  font-weight: lighter;
+  color: white;
+  font-size: 0.9rem;
+}

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="1232px" height="48px" viewBox="0 0 1232 48" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <title>Final</title>
+    <defs>
+        <path d="M161.630502,25 L210.174,48.192 L135,48.1922326 C145.457512,41.4822658 154.449993,33.6683343 161.630502,25 Z" id="path-1"></path>
+    </defs>
+    <g id="Final" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Group">
+            <g id="Spark-1-+-Spark-2-+-Spark-3-Mask" fill="#0071DC">
+                <rect id="path-1" x="0" y="0" width="1232" height="48" rx="8"></rect>
+            </g>
+            <path d="M176.569908,0.000991843251 C169.58602,18.8066376 155.084963,35.3630432 135.385646,48.002155 L8,48 C3.581722,48 1.7107134e-13,44.418278 1.70530257e-13,40 L1.70530257e-13,8 C1.69989174e-13,3.581722 3.581722,-6.31372217e-14 8,-6.39488462e-14 Z" id="Combined-Shape" fill="#FFC220" fill-rule="nonzero"></path>
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <use id="Combined-Shape" fill="#FFFFFF" xlink:href="#path-1"></use>
+        </g>
+        <path d="M959.000447,47.9964549 C985.622964,21.5999722 1034.34896,10.7374059 1085.94213,23.0757796 C1107.33149,28.2934303 1127.3039,36.9686126 1144.70381,47.996988 Z" id="Combined-Shape" fill="#FFC220" fill-rule="nonzero"></path>
+    </g>
+</svg>
