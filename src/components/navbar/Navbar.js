@@ -14,7 +14,7 @@ import { IoIosArrowDown } from "react-icons/io";
 import { useState } from "react";
 
 const Navbar = () => {
-  const [isOpen, setIsOpen] = useState(true);
+  const [isOpen, setIsOpen] = useState(false);
   console.log(isOpen);
   return (
     <div className={navbarStyle["main-container"]}>
