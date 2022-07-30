@@ -24,6 +24,7 @@
   /* border: 1px solid red; */
   max-height: 25.3rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  border-radius: 0.5rem;
 }
 
 .s-c-mr h5 {

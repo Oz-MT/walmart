@@ -26,7 +26,7 @@ import { useState } from "react";
 import Footer from "../components/footer/Footer";
 
 const Home = () => {
-  const [show, setShow] = useState(false);
+  const [show, setShow] = useState(true);
 
   return (
     <div className={homeStyle["main-container"]}>

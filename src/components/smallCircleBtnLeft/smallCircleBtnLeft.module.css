@@ -1,6 +1,11 @@
 .s-c-left {
   width: 100%;
-  max-height: 25.3rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+  /* border: 1px solid red; */
+  height: 25.3rem;
+  box-sizing: border-box;
 }
 
 .left-top {
@@ -26,10 +31,13 @@
   font-weight: 800;
 }
 
+.left-medium {
+  height: 1.5rem;
+}
+
 .left-bottom {
   /* border: 1px solid red; */
   padding: 1.5rem;
-  margin-top: 1.5rem;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   border-radius: 0.5rem;
   cursor: pointer;

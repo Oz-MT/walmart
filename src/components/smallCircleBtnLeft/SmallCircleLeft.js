@@ -11,6 +11,7 @@ const SmallCircleLeft = () => {
         <h5>Pickup and delivery</h5>
         <button>See times</button>
       </div>
+      <div className={smlCircleLeft["left-medium"]}></div>
       <div className={smlCircleLeft["left-bottom"]}>
         <div className={smlCircleLeft["left-bottom-title"]}>
           <h5>Popular services</h5>
